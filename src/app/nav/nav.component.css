@@ -1,0 +1,50 @@
+a{
+ text-decoration: none;
+}
+.businesses, .individuals{
+ padding-bottom: 15px;
+ color: rgb(146, 143, 143);
+}
+.current-page{
+ border-bottom: 3px solid gray ;
+}
+.upper-nav{
+ height: 3rem;
+ text-transform: uppercase;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.logo{
+ display: flex;
+}
+.logo-img{
+ width: 20%;
+}
+.logo-title{
+ width: 70%;
+}
+.links{
+ height:80%;
+ padding: 2rem;
+}
+li{
+ list-style: none;
+ margin-bottom: 2rem;
+}
+.list-items > a{
+ color: #000;
+}
+button{
+ display: block;
+ margin-bottom: .5rem;
+}
+
+.login{
+ color: #000;
+ background-color: rgb(202, 215, 224);
+}
+.signup{
+ color: #fff;
+ background-color: blue;
+}
