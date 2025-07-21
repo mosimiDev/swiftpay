@@ -1,27 +1,31 @@
-# Swiftpay
+# ISLAND MFB MOBILE APP REACT NATIVE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+This is a version of island mfb's mobile application made with react-native. It is written in mostly typescript, package with yarn, and uses the following important libraries:
 
-## Development server
+### EXPO
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This is what helps react native interface with ios and android without much configuration.
 
-## Code scaffolding
+### REACT NAVIGATION
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+For routing between screens and components within the application.
 
-## Build
+### TWRNC (Tailwind React Native Classnames)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+For easy styling of components without needing to constantly create Stylesheets all the time and will help with dark mode
 
-## Running unit tests
+### ZOD
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A verbose validation library made with typescript that helps with validation of data
 
-## Running end-to-end tests
+### REACT-HOOK-FORM
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+A form validation library that helps validate user inputs within the application
 
-## Further help
+# GETTING STARTED
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-   Please make sure to download node on your machine
+-   If **EXPO-CLI** is not installed please make sure to do so by running `npm install -g expo-cli` in your terminal
+-   Go to the project directory and run `npm install` to install all the dependencies needed
+-   After everything you can run `npm start` or `expo start` to run the metro bundler server so that you can view the application on an emulator.
+-   If you don't have an emulator (through android studio or xcode) you can use your phone for development. Just download **_Expo Go_** on from playstore or apple app store. Once you download the app use the barcode generated when you run the application to get the application on your phone.
